@@ -63,7 +63,6 @@
 					<dockerHost>http://192.168.6.128:2375</dockerHost>
 					<imageName>registry.cn-shanghai.aliyuncs.com/jenkins-docker1/jenkins-docker</imageName>
 					<imageTags>
-						<imageTag>${project.version}</imageTag>
 						<imageTag>latest</imageTag>
 					</imageTags>
 					<dockerDirectory>src/main/docker</dockerDirectory>
