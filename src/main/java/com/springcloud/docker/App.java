@@ -13,7 +13,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class App {
 	public static void main(String[] args) {
-		Map map = new HashMap();
+		Integer i = 200;
+		Integer j = 200;
+		System.out.println(i.equals(j));
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("name", "123");
+		System.out.println(map);
 		SpringApplication.run(App.class, args);
 	}
 }
